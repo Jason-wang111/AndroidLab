@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="textEmailAddress">text Adresse e-mail</string>
+    <string name="email">Entrez votre adresse email:</string>
+    <string name="password">Tapez votre mot de passe:</string>
+    <string name="temail">Saisissez votre e-mail ici</string>
+    <string name="LOGIN">le login</string>
+    <string name="pf">Votre profil</string>
+    <string name="name">Votre nom:</string>
+    <string name="enterName">Entrez votre nom</string>
+    <string name="pemail">Votre email:</string>
+    <string name="picture">Ta photo:</string>
+</resources>

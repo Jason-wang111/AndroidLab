@@ -1,3 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidExamples</string>
+    <string name="app_name">Lab3</string>
+    <string name="textEmailAddress">textEmailAddress</string>
+    <string name="email">Enter your email address:</string>
+    <string name="password">Type your password:</string>
+    <string name="temail">Type email here</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="pf">Your profile</string>
+    <string name="name">Your name:</string>
+    <string name="enterName">Enter your name</string>
+    <string name="pemail">Your email:</string>
+    <string name="picture">Your picture:</string>
+
 </resources>
