@@ -32,6 +32,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         });
 
+        //
         Intent fromMain = getIntent();
         String emailFromMain = fromMain.getStringExtra("Email");
 
