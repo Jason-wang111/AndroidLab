@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Button login go in to profile page
         Intent pf = new Intent(this, ProfileActivity.class);
-        pf.putExtra("Email", "wang0724@algonquinlive.com");
+        pf.putExtra("Email address", "wang0724@algonquinlive.com");
         saveButton = findViewById(R.id.saveButton);
         saveButton.setOnClickListener(bt -> {
                 startActivity(pf);
