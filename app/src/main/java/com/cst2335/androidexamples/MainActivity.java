@@ -25,14 +25,15 @@ public class MainActivity extends AppCompatActivity {
 
         email = findViewById(R.id.email);
         email.setText(savedString);
-        email.setText(getSharedPreferences("profile", Context.MODE_PRIVATE).getString("Email address", ""));
+       // email.setText(getSharedPreferences("profile", Context.MODE_PRIVATE).getString("Email address", ""));
 
         //Button login go in to profile page
         Intent pf = new Intent(this, ProfileActivity.class);
-        pf.putExtra("Email address", "wang0724@algonquinlive.com");
+
         saveButton = findViewById(R.id.saveButton);
         saveButton.setOnClickListener(bt -> {
-                startActivity(pf);
+            pf.putExtra("Email address", email.getText().toString());
+            startActivity(pf);
         });
 
 
