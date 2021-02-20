@@ -56,11 +56,10 @@ public class ChatRoomActivity extends AppCompatActivity {
         myList.setOnItemLongClickListener((p, b, pos, id) ->{
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setTitle("Do you want to delete this?")
-                    .setMessage("The selected row is" + pos)
-                    .setMessage("The database id is" + id)
+                    .setMessage("The selected row is " + pos + "\n The database id is " + id)
 
                     .setPositiveButton("Yes", (click, arg) ->{
-                        messages.remove(message);
+                        messages.remove(pos);
                         myAdapter.notifyDataSetChanged();
                     })
 
